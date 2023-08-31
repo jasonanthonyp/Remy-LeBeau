@@ -1,10 +1,23 @@
-h3,
-h4 {
+h3 {
     color: white;
     font-style: italic;
+    margin-left: 100px;
+    margin-top: 100px;
+
 }
 
 body {
     background-color: black;
     border: 5px solid rgb(6, 148, 68);
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    margin-left: 900px;
+}
+
+h1, p {
+    color: white;
+    text-align: center
 }
