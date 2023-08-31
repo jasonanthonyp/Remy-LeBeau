@@ -34,3 +34,28 @@ p {
     margin-left: 300px;
 
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: rgb(6, 148, 68);
+    color: white;
+    
+
+  }
+  .fa-twitter {
+    background: rgb(6, 148, 68);
+    color: white;
+
+  } 
+  .fa-instagram {
+    background: rgb(6, 148, 68);
+    color: white;
+
+  }
