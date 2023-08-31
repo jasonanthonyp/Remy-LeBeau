@@ -9,15 +9,28 @@ h3 {
 body {
     background-color: black;
     border: 5px solid rgb(6, 148, 68);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 200px;
     height: 300px;
-    margin-left: 900px;
+    margin-left: 990px;
+    margin-bottom: 400px;
+    border-radius: 30%;
+    padding: auto;
+
 }
 
-h1, p {
+h1 {
     color: white;
-    text-align: center
+    margin-left: 300px;
+    padding-top: 100px;
+
+}
+
+p {
+    color: white;
+    margin-left: 300px;
+
 }
