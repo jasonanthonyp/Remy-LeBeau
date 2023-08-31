@@ -1,8 +1,10 @@
-h3 {
+h3,
+h4 {
     color: white;
     font-style: italic;
 }
 
 body {
     background-color: black;
+    border: 5px solid rgb(6, 148, 68);
 }
