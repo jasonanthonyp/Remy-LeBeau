@@ -1,9 +1,26 @@
-h3 {
-    color: white;
-    font-style: italic;
-    margin-left: 100px;
-    margin-top: 100px;
+header {
+    top: 30px;
+    left: 20px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(6, 148, 68);
+
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 35px;
 }
 
 body {
