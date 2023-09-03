@@ -29,35 +29,32 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-    width: 200px;
-    height: 300px;
-    margin-left: 990px;
-    margin-bottom: 400px;
-    border-radius: 30%;
-    padding: auto;
-
-}
-
-h1 {
+.introduction{
     color: white;
-    margin-left: 300px;
-    padding-top: 100px;
-
+    max-width: 600px;
+    margin-top: 200px;
+    margin-left: auto;
 }
 
-p {
-    color: white;
-    margin-left: 300px;
+ h3 {
+    color:rgb(6, 148, 68);
+    font-style: italic;
+ }
 
-}
+ #socials {
+    text-align: center;
+    padding-top: 200px;
+ }
+
+
 
 .fa {
-    padding: 20px;
+    padding: 100px;
     font-size: 30px;
-    width: 50px;
-    text-align: center;
+    width: 30px;
+    left: 300px;
     text-decoration: none;
+    border-radius: 60%;
   }
 
   .fa-facebook {
