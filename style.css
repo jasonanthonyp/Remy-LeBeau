@@ -1,7 +1,7 @@
 header {
     top: 30px;
     left: 20px;
-    width: 90%;
+    width: 95%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ header {
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-weight: 500;
     margin-left: 35px;
@@ -41,12 +41,10 @@ body {
     font-style: italic;
  }
 
- #socials {
+footer {
+    padding: 100px;
     text-align: center;
-    padding-top: 200px;
  }
-
-
 
 .fa {
     padding: 100px;
