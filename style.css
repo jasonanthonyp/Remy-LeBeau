@@ -8,11 +8,12 @@ header {
     align-items: center;
 }
 
+
 .logo {
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
-    color: rgb(6, 148, 68);
+    color: white;
 
 }
 
@@ -25,6 +26,7 @@ header {
 
 body {
     background-color: black;
+    background-image: url(https://e0.pxfuel.com/wallpapers/323/258/desktop-wallpaper-animated-matrix-live-binary-code.jpg);
     border: 5px solid rgb(6, 148, 68);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,6 +41,16 @@ body {
  h3 {
     color:rgb(6, 148, 68);
     font-style: italic;
+ }
+
+ img {
+    width: 500px;
+    position:relative;
+    margin-top: -15%;
+    margin-left: 100px;
+    border-radius: 8%;
+
+
  }
 
 footer {
