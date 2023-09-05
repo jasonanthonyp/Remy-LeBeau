@@ -1,4 +1,11 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
 
-document.querySelector("body").appendChild(h2);
+const nav = document.querySelector(".nav")
+
+nav.addEventListener('mouseover', function handleMouseOver() {
+  nav.style.color = 'red';
+});
+
+
+nav.addEventListener('mouseout', function handleMouseOut() {
+  nav.style.color = 'white';
+});
