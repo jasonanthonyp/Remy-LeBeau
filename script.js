@@ -1,11 +1,18 @@
+const hover = document.getElementsByClassName('introduction');
 
-const nav = document.querySelector(".nav")
 
-nav.addEventListener('mouseover', function handleMouseOver() {
-  nav.style.color = 'red';
+hover.addEventListener('mouseover', function handleMouseOver() {
+  hover.style.color = 'green';
 });
 
 
-nav.addEventListener('mouseout', function handleMouseOut() {
-  nav.style.color = 'white';
+hover.addEventListener('mouseout', function handleMouseOut() {
+  hover.style.color = 'white';
 });
+
+const logo = document.getElementsByClassName('logo');
+
+logo.addEventListener("click", function(e) {
+    alert("Hey!");
+});
+
